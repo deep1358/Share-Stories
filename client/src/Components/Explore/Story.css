@@ -1,0 +1,127 @@
+.explore-story {
+	width: 19vw;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.first {
+	overflow: hidden;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+
+.first > img {
+	width: 19vw;
+	height: 180px;
+	transition: transform 0.2s ease-in-out;
+	transform: scale(1.07);
+}
+
+.explore-story:hover {
+	transform: scale(1.02);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.explore-story:hover .first > img {
+	transform: scale(1);
+}
+
+.second,
+.fourth {
+	width: 100%;
+	height: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 5px;
+}
+
+.second {
+	padding-top: 10px;
+}
+
+.fourth {
+	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.fourth > div {
+	display: flex;
+}
+
+.fourth img {
+	width: 22px;
+	height: 22px;
+}
+.fourth p {
+	font-size: 12px;
+	margin-bottom: 0;
+	color: #767676;
+}
+
+.second p {
+	margin: 0;
+	color: #767676;
+}
+.third {
+	width: 100%;
+	height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 10px;
+	overflow-wrap: anywhere;
+}
+
+.third h3 {
+	font-size: 20px;
+	color: #2b2b2b;
+}
+
+.fourth .MuiAvatar-root {
+	width: 20px;
+	height: 20px;
+	font-size: 0.7rem;
+	margin-right: 3px;
+	top: -1px;
+}
+
+@media screen and (max-width: 1100px) {
+	.explore-story {
+		width: 25vw;
+	}
+	.first {
+		width: 100%;
+	}
+	.first > img {
+		width: 100%;
+	}
+
+	.third h3 {
+		font-size: 16px;
+		color: #2b2b2b;
+	}
+}
+@media screen and (max-width: 800px) {
+	.explore-story {
+		width: 37vw;
+	}
+}
+@media screen and (max-width: 550px) {
+	.explore-story {
+		width: 70vw;
+	}
+}
+@media screen and (max-width: 400px) {
+	.explore-story {
+		width: 85vw;
+	}
+}

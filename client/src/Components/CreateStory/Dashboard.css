@@ -1,0 +1,63 @@
+.createstory {
+	position: absolute;
+	top: 10vh;
+	width: 70vw;
+	left: 15%;
+	right: 15%;
+}
+
+.createstory-container {
+	padding: 1rem;
+}
+
+.createstory-form {
+	width: 100%;
+	padding: 1rem 0;
+}
+.createstory-form-title {
+	width: 100%;
+	margin: 1rem 0;
+	font-size: 2rem;
+	border: none;
+	border-bottom: 1px solid grey;
+	padding: 5px;
+}
+
+.createstory-form-title:focus,
+.createstory-form-title:active {
+	outline: none;
+}
+
+.createstory-form-button {
+	width: 100%;
+	text-align: center;
+	margin-top: 2em;
+}
+.createstory-form-button > button {
+	border: none;
+	outline: none;
+	border-radius: 25px;
+	padding: 10px 20px;
+	transition: 0.3s;
+}
+.createstory-form-button > button:focus,
+.createstory-form-button > button:active {
+	outline: none;
+}
+
+.createstory-form-button > button:hover {
+	background-color: #b2b2b2;
+	color: black;
+}
+.createstory-form-select {
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+	.createstory {
+		width: 90%;
+		left: 5%;
+		right: 5%;
+	}
+}

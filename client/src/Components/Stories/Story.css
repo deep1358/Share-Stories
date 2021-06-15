@@ -1,0 +1,147 @@
+.story {
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 90%;
+	margin: 1.5vh 0;
+	border-radius: 10px;
+	/* background-color: papayawhip; */
+	background: rgba(255, 255, 255, 0.3);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border-radius: 10px;
+	/* background: linear-gradient(145deg, #cad6dd, #f0ffff);
+	box-shadow: 11px 11px 22px #d3e0e7, -11px -11px 22px #edfcff; */
+}
+.story-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.story-category {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 0.7rem;
+	letter-spacing: 1.2px;
+	color: rgb(110, 104, 104);
+}
+.story-title {
+	min-height: 4vh;
+	font-size: 2rem;
+	overflow-wrap: anywhere;
+}
+.story-footer {
+	width: 100%;
+	margin: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.story-footer-button {
+	display: flex;
+	flex: 0.5;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.story-footer-read-button {
+	margin-left: 10px;
+}
+
+.story-footer-delete-button > .MuiButtonBase-root {
+	background-color: red !important;
+	color: white !important;
+}
+.MuiButtonBase-root:focus,
+.MuiButtonBase-root:active {
+	outline: none;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	border: none;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: none !important;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: darkgray;
+	border-radius: 10px;
+}
+
+.story-header-avatar > .MuiAvatar-colorDefault {
+	color: #fafafa;
+	background-color: #323232;
+}
+
+.footer-bottom {
+	display: flex;
+	align-items: flex-start;
+	width: 100%;
+}
+.footer-bottom .comments1,
+.footer-bottom .claps1 {
+	display: flex;
+	align-items: center;
+	margin: -15px 1vw;
+}
+
+.footer-bottom p {
+	margin-bottom: 0;
+	margin-left: 5px;
+}
+
+.footer-bottom img {
+	width: 25px;
+}
+
+@media screen and (max-width: 762px) {
+	.footer-bottom .comments1,
+	.footer-bottom .claps1 {
+		display: flex;
+		align-items: center;
+		margin: -6px 1vw;
+	}
+	.story-footer {
+		flex-direction: column;
+	}
+	.story-footer-button {
+		justify-content: center;
+		margin-top: 5px;
+	}
+}
+@media screen and (max-width: 605px) {
+	.story {
+		width: 96%;
+		margin-left: 12px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.story-title {
+		min-height: 5vh;
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.story {
+		width: 96%;
+		margin-left: 12px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.story-header-date {
+		font-size: 0.6rem;
+	}
+}

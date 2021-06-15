@@ -1,0 +1,40 @@
+.ck .ck-editor__main {
+	z-index: -1000 !important;
+}
+
+.ck .ck-sticky-panel__content {
+	z-index: -1000 !important;
+}
+body {
+	overflow-x: hidden;
+}
+
+/** Classes for the close button. Better use your own closeButton **/
+.Toastify__close-button {
+	top: 5px;
+	position: relative;
+	right: 10px;
+	width: 2.1rem !important;
+	height: 2rem !important;
+	border: 1px solid white !important;
+	border-radius: 50% !important;
+}
+.Toastify__close-button--default {
+	width: 2.5rem !important;
+	height: 2rem !important;
+	border: 1px solid white !important;
+	border-radius: 50% !important;
+}
+.Toastify__close-button > svg {
+	margin-top: -5px;
+}
+
+.Toastify__close-button:hover,
+.Toastify__close-button:focus {
+	outline: none;
+}
+
+/** Classes for the displayed toast **/
+.Toastify__toast--success {
+	background-color: rgb(48, 63, 159);
+}

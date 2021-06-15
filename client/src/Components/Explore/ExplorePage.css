@@ -1,0 +1,72 @@
+.explore {
+	position: relative;
+	top: 12vh;
+}
+
+.explore-stories {
+	position: relative;
+	width: 80vw;
+	left: 9vw;
+	right: 10vw;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	row-gap: 3vh;
+	top: 5vh;
+	padding-bottom: 5vh;
+}
+
+.stories-container-search1 {
+	position: absolute;
+	top: 7vh;
+	width: 40%;
+	left: 30%;
+	right: 30%;
+	border: none;
+	padding: 0.5rem;
+	background-color: #f5f5f5;
+	box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+		0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.stories-container-search1:focus,
+.stories-container-search1:active {
+	outline: none;
+}
+
+.explore > .MuiAppBar-colorDefault {
+	width: 85%;
+	left: 7.5%;
+	right: 7.5%;
+	position: sticky;
+	top: 10vh;
+}
+
+@media screen and (max-width: 1100px) {
+	.explore-stories {
+		grid-template-columns: auto auto auto;
+		/* left: 9vw; */
+	}
+}
+@media screen and (max-width: 800px) {
+	.explore-stories {
+		grid-template-columns: auto auto;
+	}
+	.stories-container-search1 {
+		width: 80%;
+		left: 10%;
+		right: 10%;
+		top: 8.5vh;
+	}
+}
+@media screen and (max-width: 550px) {
+	.explore-stories {
+		grid-template-columns: auto;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.explore-stories {
+		left: 0;
+		right: 0;
+	}
+}

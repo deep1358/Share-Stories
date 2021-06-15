@@ -1,0 +1,158 @@
+.profile {
+	position: relative;
+	top: 15vh;
+	width: 100%;
+	font-family: "Redressed", cursive;
+}
+
+.profile-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.profile-top-image {
+	width: 30%;
+	display: flex;
+	justify-content: flex-end;
+}
+.profile-top-image > img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.profile-top-info {
+	width: 60%;
+}
+
+.profile-top-info-top {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-bottom: 10vh;
+}
+
+.profile-h1 {
+	width: 100%;
+}
+
+.profile-h1 > h1 {
+	font-size: 6rem;
+}
+.profile-h5 {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1vw;
+}
+
+.profile-h5 > h5 {
+	font-size: 1.5rem;
+	color: #7e7e7e;
+}
+
+.profile-top-info-bottom {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+
+.profile-follow {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: flex-start;
+	font-size: 1.2rem;
+	position: relative;
+	bottom: 5vh;
+}
+
+.followers,
+.following {
+	padding: 15px;
+	background-color: #fff;
+	min-width: 10vw;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+		rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	cursor: pointer;
+}
+
+.followers > p,
+.following > p {
+	margin: 0;
+}
+
+.followers {
+	margin-left: 5vw;
+}
+
+.following-p,
+.followers-p {
+	color: #7e7e7e;
+}
+
+.profile-line {
+	height: 0.5px;
+	width: 100%;
+	margin-right: 5vw;
+	background-color: rgb(161, 157, 157);
+}
+
+.stories-button {
+	position: absolute;
+	right: 20%;
+	text-decoration: none;
+	color: black;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	padding: 0.5rem;
+	cursor: pointer;
+}
+
+.profile-bottom {
+	display: flex;
+}
+.profile-bottom-left {
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 1rem;
+	padding-left: 2rem;
+}
+.profile-bottom-left-div {
+	display: flex;
+	width: 80%;
+	justify-content: center;
+	padding: 1rem;
+	font-size: 1.5rem;
+	margin: 1rem 0;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	transition: all 0.3s ease-in-out;
+}
+
+.profile-bottom-left-div:hover {
+	background: linear-gradient(145deg, #e1e4e6, #ffffff);
+	box-shadow: 10px 10px 0px #d5d7d9, -10px -10px 0px #ffffff;
+}
+.profile-bottom-left-div > p {
+	margin: 0;
+}
+
+.profile-bottom-right {
+	width: 50%;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+
+.profile-top-image > .MuiAvatar-root {
+	width: 300px;
+	height: 300px;
+	font-size: 10rem;
+	background-color: teal;
+}

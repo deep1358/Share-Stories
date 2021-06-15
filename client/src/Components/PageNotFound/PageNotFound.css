@@ -1,0 +1,38 @@
+.page-not-found{
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "lobster",cursive;
+}
+.page-not-found > h1{
+    font-size: 5rem;
+    
+}
+
+.link{
+    background-color: #eaeaea;
+    padding: .8rem;
+    border-radius: 2rem;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+
+.link:hover{
+    text-decoration: none;
+    background-color: rgba(222,222,222,1);
+}
+
+@media (max-width:380px){
+    .page-not-found > h1{
+        font-size: 3rem;
+    }
+}
