@@ -200,7 +200,7 @@ function RegisterPage(props) {
 						</div>
 						<div className="icons">
 							<GoogleLogin
-								clientId="255600888738-5du1cbs6rk56ivcu1nhdvoi1vg9lh63h.apps.googleusercontent.com"
+								clientId=process.env.REACT_APP_GOOGLE_CLIENT_ID
 								buttonText="Login"
 								onSuccess={responseSuccessGoogle}
 								onFailure={responseFailureGoogle}
