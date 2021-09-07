@@ -15,6 +15,14 @@ This web app is basically a story writing and sharing app.
 3) Like and Comment on any story.
 4) Share stories to the world via different platforms as well.
 
+## Collaborator
+
+[Parth Patel](https://github.com/Parth-2000)
+
+[Het Gandhi](https://github.com/hetgandhi781)
+
+[Preet Mehta](https://github.com/Preet-Mehta)
+
 ## Visit
 
 [Share Stories](https://share--stories.herokuapp.com/)
