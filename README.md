@@ -15,7 +15,7 @@ This web app is basically a story writing and sharing app.
 3) Authenticated users can like and Comment on any story.
 4) Share stories to the world via different platforms as well.
 
-## Collaborator
+## Collaborators
 
 [Parth Patel](https://github.com/Parth-2000)
 
