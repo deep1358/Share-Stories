@@ -12,7 +12,7 @@ This web app is basically a story writing and sharing app.
 
 1) Authentication System.
 2) Create Story, delete, and update your own story.
-3) Like and Comment on any story.
+3) Authenticated users can like and Comment on any story.
 4) Share stories to the world via different platforms as well.
 
 ## Collaborator
